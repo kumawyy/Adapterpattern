@@ -23,7 +23,7 @@ class KaspiBankAdapter implements Bank {
 
     @Override
     public void processPayment(double amount) {
-        kaspiBank.kaspiPay(amount); // translate the call to Kaspi’s format
+        kaspiBank.kaspiPay(amount); 
     }
 }
 
@@ -36,7 +36,7 @@ class HalykBankAdapter implements Bank {
 
     @Override
     public void processPayment(double amount) {
-        halykBank.halykTransfer(amount); // translate the call to Halyk’s format
+        halykBank.halykTransfer(amount); 
     }
 }
 
